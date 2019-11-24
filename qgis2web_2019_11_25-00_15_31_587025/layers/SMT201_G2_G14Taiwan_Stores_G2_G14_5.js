@@ -1,6 +1,6 @@
-var json_Taiwan_Stores_G2_G14_6 = {
+var json_SMT201_G2_G14Taiwan_Stores_G2_G14_5 = {
 "type": "FeatureCollection",
-"name": "Taiwan_Stores_G2_G14_6",
+"name": "SMT201_G2_G14Taiwan_Stores_G2_G14_5",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "fid": "16", "Country": "Taiwan", "Market": "Taiwan", "PH\/PHD": "PH", "Status": "New open", "Milestone": "Opened", "Local Code": "042", "CHAMPS Code": "886P042", "JDE Code": 57006321.0, "Store Name": "LU", "Latest Asset Type": "Delco", "Facility Type": "In Line", "City Location": null, "Location Type": null, "Open Date": "16-Jun-94", "Close Date": null, "Corresponding Relo-Open\/ Relo-Closure Store Name": null, "Corresponding Relo-Open\/ Relo-Closure Date": null, "Corresponding Relo-Open\/ Relo-Closure Asset Type": null, "Store Address": "No. 78, Chung Cheng Rd., Lu Chou, Taipei County, Taiwan (R.O.C)", "Latitude": 25.083543, "Longitude": 121.470213, "Month": 6.0, "Quarter": "Q2", "Year": "FY1994", "Grouping": "G2 Group 14", "Cluster_ID": 11.0 }, "geometry": { "type": "Point", "coordinates": [ 121.470213, 25.083543 ] } },
