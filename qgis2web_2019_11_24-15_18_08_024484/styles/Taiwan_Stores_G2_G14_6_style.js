@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_Total_Trade_Area_5 = function(feature, resolution){
+var style_Taiwan_Stores_G2_G14_6 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,15 @@ var style_Total_Trade_Area_5 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}),fill: new ol.style.Fill({color: 'rgba(254,230,220,1.0)'}),
+        image: new ol.style.Icon({
+                  imgSize: [580, 580],
+                  scale: 0.03793103448275862,
+                  anchor: [11, 11],
+                  anchorXUnits: "pixels",
+                  anchorYUnits: "pixels",
+                  rotation: 0.0,
+                  src: "styles/food_restaurant.svg"
+            }),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

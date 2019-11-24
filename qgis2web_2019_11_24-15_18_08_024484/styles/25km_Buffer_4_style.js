@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_30km_Buffer_2 = function(feature, resolution){
+var style_25km_Buffer_4 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
